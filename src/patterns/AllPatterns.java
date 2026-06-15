@@ -172,8 +172,20 @@ public class AllPatterns {
 				System.out.print((char)('A'+j));
 			}
 			System.out.println();
+		}	
+	}
+	
+	void print16(int n){
+		for(int i = 0; i < n; i++) {
+			
+			char ch = (char)('A' + i);
+				for (int j = 0; j <= i; j++) {
+					System.out.print(ch);
+				}
+				System.out.println();
 		}
 	}
+	
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -187,7 +199,7 @@ public class AllPatterns {
 			System.out.println("Enter a limit: ");
 			int n = sc.nextInt();
 
-			t.print15(n);
+			t.print16(n);
 			System.out.println();
 		}
 
