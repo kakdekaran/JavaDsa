@@ -194,7 +194,6 @@ public class AllPatterns {
 
 		System.out.println("Enter Test Cases: ");
 		int b = sc.nextInt();
-
 		for (int i = 0; i < b; i++) {
 			System.out.println("Enter a limit: ");
 			int n = sc.nextInt();
