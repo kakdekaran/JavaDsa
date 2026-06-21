@@ -2,7 +2,7 @@ package recursion;
 public class multipleFunctionCall {
 
     static int func(int n) {
-        if (n <= 1)
+        if (n <= 1){
             return n;
 
         return func(n - 1) + func(n - 2);
